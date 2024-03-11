@@ -1,8 +1,15 @@
 <script setup>
+  import { onBeforeMount } from 'vue';
+import { useRouter } from 'vue-router'
+  const router = useRouter()
+
+
+  onBeforeMount(() => {
+    router.push('/auth/login')
+  })
 </script>
 
 <template>
   <main>
-    <h1 class="text-3xl">AppSalón</h1>
   </main>
 </template>
