@@ -21,14 +21,14 @@ onBeforeMount(async () => {
 </script>
 
 <template>
-  <div class="flex justify-between">
+  <div class="flex flex-col space-y-5 sm:space-y-0 sm:flex-row sm:justify-between">
     <div>
       <h1 class="text-2xl lg:text-6xl font-black text-white mb-2">App Salón</h1>
       <h2 class="text-xl lg:text-2xl font-black text-white">Panel de Administración</h2>
     </div>
 
     <div class="flex flex-col space-y-5">
-      <div class="flex gap-2 items-center">
+      <div class="flex gap-2 items-center justify-end">
         <p class="text-white text-right">Hola: {{ user.getUserName }}</p>
         <button type="button"
           class="bg-red-600 hover:bg-red-700 p-2 text-white uppercase text-xs font-extrabold rounded-lg"

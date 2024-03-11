@@ -13,7 +13,7 @@ import { onMounted } from 'vue';
 
 <template>
   
-  <nav class="my-5 flex gap-3">
+  <nav class="my-5 flex flex-col sm:flex-row gap-3">
     <RouterLink
       :to="{ name: 'new-appointment' }"
       class="flex-1 text-center p-3 uppercase font-extrabold hover:bg-blue-700 hover:text-white" 

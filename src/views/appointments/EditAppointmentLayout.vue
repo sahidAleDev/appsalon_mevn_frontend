@@ -21,7 +21,6 @@
 </script>
 
 <template>
-  Desde Edit
   <nav class="my-5 flex gap-3">
     <RouterLink
       :to="{ name: 'edit-appointment' }"
