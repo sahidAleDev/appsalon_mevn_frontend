@@ -5,7 +5,7 @@
 
 <template>
   <div class="flex flex-col sm:flex-row justify-between space-y-5 sm:space-y-0">
-    <h1 class="text-2xl lg:text-6xl font-black text-white">App Salón</h1> 
+    <h1 class="text-2xl lg:text-6xl font-black text-white">FlexiAgenda</h1> 
 
     <div class="flex flex-col space-y-5">
       <div class="flex gap-2 items-center justify-end">

@@ -29,7 +29,7 @@
 <template>
   <h1 class="text-6xl font-extrabold text-white text-center mt-10">Crea una cuenta</h1>
 
-  <p class="text-2xl text-white text-center my-5">Cree una cuenta en AppSalón</p>
+  <p class="text-2xl text-white text-center my-5">Cree una cuenta en FlexiAgenda</p>
 
   <FormKit
     id="registerForm"
