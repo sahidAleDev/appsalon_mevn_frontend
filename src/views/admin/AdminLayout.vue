@@ -23,7 +23,7 @@ onBeforeMount(async () => {
 <template>
   <div class="flex flex-col space-y-5 sm:space-y-0 sm:flex-row sm:justify-between">
     <div>
-      <h1 class="text-2xl lg:text-6xl font-black text-white mb-2">lón</h1>
+      <h1 class="text-2xl lg:text-6xl font-black text-white mb-2">FlexiAgenda</h1>
       <h2 class="text-xl lg:text-2xl font-black text-white">Panel de Administración</h2>
     </div>
 
